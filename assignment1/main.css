@@ -1,0 +1,146 @@
+body {
+    background-color: #f7f8f9;
+    font-family: sans-serif;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+
+/* .container {
+    display: flex;
+} */
+
+.header-bar {
+    display: flex;
+    flex-direction: row;
+    background-color: #FFFFFF;
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding: 5px 10px;
+    height: 65px;
+}
+
+.board-container{
+    display: flex;
+    flex-direction: row;
+    padding-top: 85px
+}
+
+/* .apple-logo {
+    width:30px;
+    height: 30px;
+} */
+
+.search {
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    
+  }
+  
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: flex;
+    /* display: table; */
+    clear: both;
+  }
+.custom-row {
+    width: 85%;
+    margin-left: 7%;
+}
+
+.category{
+    font-weight: bold;
+}
+.items {
+    background: #FFFFFF;
+    padding: 15px 15px;
+    margin-top: 15px;
+}
+.item-header{
+    color: #676977;
+}
+
+
+.item-content{
+    color: #B0B1BA;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    max-height: 60px;
+    overflow: hidden;
+}
+
+.item-user{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    color:#FFFFFF;
+    padding: 9px 5px;
+    font-size: 12px;
+}
+
+.item-date {
+    float: right;
+}
+
+.oz{
+    background-color:#3591fb
+}
+
+.le{
+    background-color:#c335fb
+}
+
+.me {
+    background-color: #35cdfb;
+}
+
+.am {
+    background-color: #915aff;
+}
+
+.date-purple{
+    color:#915aff;
+    
+}
+.date-scarlet{
+    color:#ef2c40;
+}
+.date-green {
+    color:#4dd86e;
+}
+.date-grey{
+    color:#B0B1BA;
+}
+
+input {
+    background-image: url("search.png");
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    border: 1px solid transparent;
+    border-left: 1px solid #C5CCAD;
+    padding: 9px 5px 10px 20px;
+    width: 90%;
+    text-indent: 35px;
+}
+
+.avater {display: table;margin-top: 10px;}
+
+.avater-image {
+    margin-top: 10px;
+}
+.avater-name {
+    font-weight: bold;
+    font-size: 12px;
+    color: #676977;
+    margin-top: 20px;
+}
